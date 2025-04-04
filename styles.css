@@ -2,19 +2,19 @@
 body {
     font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #222; /* Dark Grey */
+    color: #ffcc00; /* Yellow */
     padding: 0;
     margin: 0;
 }
 
 /* Header */
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #333; /* Slightly lighter dark grey */
+    color: #ffcc00;
     padding: 20px;
     border-radius: 10px 10px 0 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(255, 255, 0, 0.2);
 }
 
 h1 {
@@ -24,13 +24,13 @@ h1 {
 
 /* Sections */
 section {
-    background-color: white;
+    background-color: #444; /* Medium Grey for contrast */
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
     max-width: 900px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(255, 255, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -39,7 +39,7 @@ section:hover {
 }
 
 h2 {
-    color: #007bff;
+    color: #ffcc00; /* Yellow */
     font-size: 2rem;
 }
 
@@ -50,8 +50,8 @@ ul {
 }
 
 li {
-    background-color: #007bff;
-    color: white;
+    background-color: #555; /* Slightly lighter grey */
+    color: #ffcc00;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
@@ -60,15 +60,16 @@ li {
 }
 
 li:hover {
-    background-color: #0056b3;
+    background-color: #666; /* Even lighter grey on hover */
 }
 
 /* Footer */
 footer {
     margin-top: 20px;
     padding: 15px;
-    background-color: #333;
-    color: white;
+    background-color: #111; /* Almost black */
+    color: #ffcc00;
     border-radius: 0 0 10px 10px;
     font-size: 1rem;
+    box-shadow: 0px -4px 8px rgba(255, 255, 0, 0.2);
 }
